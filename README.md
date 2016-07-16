@@ -1,2 +1,4 @@
-# struts2SmallNotes
-����ѧϰStruts2��С�ʼ�
+﻿# struts2SmallNotes
+这是学习Struts2的小笔记
+这是学习Struts2的小笔记
+这是学习Struts2的小笔记
