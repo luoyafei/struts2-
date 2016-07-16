@@ -1,0 +1,2 @@
+# struts2SmallNotes
+这是学习Struts2的小笔记
