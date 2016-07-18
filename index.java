@@ -1,32 +1,32 @@
-¡¾1¡¿namespace¾ö¶¨ÁËactionµÄ·ÃÎÊÂ·¾¶£¬Ä¬ÈÏÎª""£¬¿ÉÒÔ½ÓÊÕËùÓĞÂ·¾¶µÄaction¡£
-namespace¿ÉÒÔĞ´Îª/£¬»òÕß/XXX£¬»òÕß/XXX/YYY£¬¶ÔÓ¦µÄaction·ÃÎÊÂ·¾¶Îª/index.action£¬/XXX/index.action,
-»òÕß/XXX/YYY/index.action¡£
-namespace×îºÃÒ²ÓÃÄ£¿éÀ´½øĞĞÃüÃû¡£
-¡¾2¡¿<package name="**">
-×÷ÓÃÓÚjavaÖĞÒ»ÖÂ£¬±ÜÃâÖØÃûµÄ¡£
-¡¾3¡¿<result name="success">
-Èç¹ûresultÖĞµÄnameÃ»ÓĞĞ´£¬ÄÇÃ´ËüµÄÄ¬ÈÏÖµ¾ÍÊÇsuccess£»
-¡¾4¡¿Èç¹ûÊÇ¸´ÖÆÏîÄ¿£¬½«ÏîÄ¿Ãû×ÖĞŞ¸Äºó£¬ÔËĞĞÊ§°ÜµÄ»°£¬±ØĞë½«¸ÃÏîÄ¿ÓÒ¼üproperties£¬ÕÒWeb Context root£¬½«ÆäĞŞ¸ÄÎªÏîÄ¿
-Ãû²ÅÄÜ·ÃÎÊ£¡
-¡¾5¡¿Â·¾¶ÎÊÌâ
-struts2ÖĞµÄÂ·¾¶ÎÊÌâÊÇ¸ù¾İactionµÄÂ·¾¶¶ø²»ÊÇjspÂ·¾¶À´È·¶¨£¬ËùÓĞ¾¡Á¿²»ÒªÊ¹ÓÃÏà¶ÔÂ·¾¶¡£
-ËäÈ»¿ÉÒÔÓÃredirect·½Ê½½â¾ö£¬µ«ÊÇredirect·½Ê½²¢·Ç±ØÒª¡£
-Ê¹ÓÃbasePath
-ÔÚheadÖĞ¼Ó±êÇ©<base href="<%=basePath%>" />
-ÕâÑùÔÚhrefÖĞ¶¼»áÄ¬ÈÏ¼ÓÉÏbashPath
-¡¾6¡¿Ê¹ÓÃaction=mylogin!addÀ´¶¯Ì¬·½·¨µ÷ÓÃÏëÒª
-Ê¹ÓÃµÄ·½·¨
-¡¾7Ô¼¶¨ÓÅÓÚÅäÖÃ¡¿Ê¹ÓÃÍ¨Åä·û*;(Ê×ÏÈÆ¥Åä×î¾«È·µÄ£¡)
+ï»¿ã€1ã€‘namespaceå†³å®šäº†actionçš„è®¿é—®è·¯å¾„ï¼Œé»˜è®¤ä¸º""ï¼Œå¯ä»¥æ¥æ”¶æ‰€æœ‰è·¯å¾„çš„actionã€‚
+namespaceå¯ä»¥å†™ä¸º/ï¼Œæˆ–è€…/XXXï¼Œæˆ–è€…/XXX/YYYï¼Œå¯¹åº”çš„actionè®¿é—®è·¯å¾„ä¸º/index.actionï¼Œ/XXX/index.action,
+æˆ–è€…/XXX/YYY/index.actionã€‚
+namespaceæœ€å¥½ä¹Ÿç”¨æ¨¡å—æ¥è¿›è¡Œå‘½åã€‚
+ã€2ã€‘<package name="**">
+ä½œç”¨äºjavaä¸­ä¸€è‡´ï¼Œé¿å…é‡åçš„ã€‚
+ã€3ã€‘<result name="success">
+å¦‚æœresultä¸­çš„nameæ²¡æœ‰å†™ï¼Œé‚£ä¹ˆå®ƒçš„é»˜è®¤å€¼å°±æ˜¯successï¼›
+ã€4ã€‘å¦‚æœæ˜¯å¤åˆ¶é¡¹ç›®ï¼Œå°†é¡¹ç›®åå­—ä¿®æ”¹åï¼Œè¿è¡Œå¤±è´¥çš„è¯ï¼Œå¿…é¡»å°†è¯¥é¡¹ç›®å³é”®propertiesï¼Œæ‰¾Web Context rootï¼Œå°†å…¶ä¿®æ”¹ä¸ºé¡¹ç›®
+åæ‰èƒ½è®¿é—®ï¼
+ã€5ã€‘è·¯å¾„é—®é¢˜
+struts2ä¸­çš„è·¯å¾„é—®é¢˜æ˜¯æ ¹æ®actionçš„è·¯å¾„è€Œä¸æ˜¯jspè·¯å¾„æ¥ç¡®å®šï¼Œæ‰€æœ‰å°½é‡ä¸è¦ä½¿ç”¨ç›¸å¯¹è·¯å¾„ã€‚
+è™½ç„¶å¯ä»¥ç”¨redirectæ–¹å¼è§£å†³ï¼Œä½†æ˜¯redirectæ–¹å¼å¹¶éå¿…è¦ã€‚
+ä½¿ç”¨basePath
+åœ¨headä¸­åŠ æ ‡ç­¾<base href="<%=basePath%>" />
+è¿™æ ·åœ¨hrefä¸­éƒ½ä¼šé»˜è®¤åŠ ä¸ŠbashPath
+ã€6ã€‘ä½¿ç”¨action=mylogin!addæ¥åŠ¨æ€æ–¹æ³•è°ƒç”¨æƒ³è¦
+ä½¿ç”¨çš„æ–¹æ³•
+ã€7çº¦å®šä¼˜äºé…ç½®ã€‘ä½¿ç”¨é€šé…ç¬¦*;(é¦–å…ˆåŒ¹é…æœ€ç²¾ç¡®çš„ï¼)
 <action name="*_*" class="com.learning.action.{1}Action" method="{2}">
-//ÕâÀïµÄ{1}ºÍ{2}·Ö±ğ´ú±íÁË*£¬1ÊÇÖ¸µÚÒ»¸ö*£¬2ÊÇÖ¸µÚ¶ş¸ö¡£
+//è¿™é‡Œçš„{1}å’Œ{2}åˆ†åˆ«ä»£è¡¨äº†*ï¼Œ1æ˜¯æŒ‡ç¬¬ä¸€ä¸ª*ï¼Œ2æ˜¯æŒ‡ç¬¬äºŒä¸ªã€‚
 <result>/{1}_{2}_success.jsp</result>
 </action>
-µ±´«ÈëStudentºÍaddÊ±£¬½«»á×Ô¶¯Ñ°ÕÒ{1}ActionºÍ{2}£¬
-¼´StudentActionÖĞµÄadd·½·¨£¡
-×¢Òâ£ºname=¡°Student_add¡±±Èname="*_*"´«ÈëStudentºÍaddÓÅÏÈ¼¶¸ß¡£
-¡¾8¡¿Ê¹ÓÃgetterºÍsetter·½·¨»ñÈ¡²ÎÊıÖµ
-¡¾9¡¿Ê¹ÓÃDomainModal½ÓÊÕ²ÎÊı¡£
-ÔÚUserAction extends ActionSupportÖĞ£º
+å½“ä¼ å…¥Studentå’Œaddæ—¶ï¼Œå°†ä¼šè‡ªåŠ¨å¯»æ‰¾{1}Actionå’Œ{2}ï¼Œ
+å³StudentActionä¸­çš„addæ–¹æ³•ï¼
+æ³¨æ„ï¼šname=â€œStudent_addâ€æ¯”name="*_*"ä¼ å…¥Studentå’Œaddä¼˜å…ˆçº§é«˜ã€‚
+ã€8ã€‘ä½¿ç”¨getterå’Œsetteræ–¹æ³•è·å–å‚æ•°å€¼
+ã€9ã€‘ä½¿ç”¨DomainModalæ¥æ”¶å‚æ•°ã€‚
+åœ¨UserAction extends ActionSupportä¸­ï¼š
 private User user;
 public void setUser(User user) {
 	this.user = user;
@@ -34,77 +34,77 @@ public void setUser(User user) {
 public User getUser() {
 	return user;
 }
-UserÎªDomainModal£¬¼´Bean£¬ÀïÃæÊÇÊı¾İ¿âÖĞµÄ×Ö¶Î£¡
-×¢Òâ£ºÀıÈç×¢²áÊ±£¬»¹ĞèÒª½ÓÊÕconfirmingPassword×Ö¶Î£¬¿ÉÒÔÉèÖÃÒ»¸öÖĞ¼äµÄÀàUserDTO£¬°üº¬ËùÓĞµÄ½ÓÊÕ¹ıÀ´µÄ×Ö¶Î£¬
-µÈ´¦ÀíÍê³ÉÖ®ºó£¬¾Í¿ÉÒÔ½«Êı¾İ¿âÖĞµÄ×Ö¶Î¸³Öµ¸øUser¡£
-ÌØ±ğ×¢Òâ£ºÊ¹ÓÃDomainModal½ÓÊÕ²ÎÊı£¬»òÕßÊ¹ÓÃUserDTO½ÓÊÕ²ÎÊı£¬ÔÚÇ°Ì¨×Ö¶ÎµÄnameÖĞ±ØĞë½«ºóÌ¨¶¨ÒåµÄË½ÓĞ³ÉÔ±ÀıÈç£º
+Userä¸ºDomainModalï¼Œå³Beanï¼Œé‡Œé¢æ˜¯æ•°æ®åº“ä¸­çš„å­—æ®µï¼
+æ³¨æ„ï¼šä¾‹å¦‚æ³¨å†Œæ—¶ï¼Œè¿˜éœ€è¦æ¥æ”¶confirmingPasswordå­—æ®µï¼Œå¯ä»¥è®¾ç½®ä¸€ä¸ªä¸­é—´çš„ç±»UserDTOï¼ŒåŒ…å«æ‰€æœ‰çš„æ¥æ”¶è¿‡æ¥çš„å­—æ®µï¼Œ
+ç­‰å¤„ç†å®Œæˆä¹‹åï¼Œå°±å¯ä»¥å°†æ•°æ®åº“ä¸­çš„å­—æ®µèµ‹å€¼ç»™Userã€‚
+ç‰¹åˆ«æ³¨æ„ï¼šä½¿ç”¨DomainModalæ¥æ”¶å‚æ•°ï¼Œæˆ–è€…ä½¿ç”¨UserDTOæ¥æ”¶å‚æ•°ï¼Œåœ¨å‰å°å­—æ®µçš„nameä¸­å¿…é¡»å°†åå°å®šä¹‰çš„ç§æœ‰æˆå‘˜ä¾‹å¦‚ï¼š
 private UserDTO user;
-ÕâÀïuser¼ÓÈënameÖĞ£¬ÀıÈç<input type="text" name="user.userName">;ÕâÑù²ÅÄÜ±£Ö¤Ç°Ì¨´«¹ıÀ´µÄ²»Îª¿Õ¡£
+è¿™é‡ŒuseråŠ å…¥nameä¸­ï¼Œä¾‹å¦‚<input type="text" name="user.userName">;è¿™æ ·æ‰èƒ½ä¿è¯å‰å°ä¼ è¿‡æ¥çš„ä¸ä¸ºç©ºã€‚
 
-¡¾10¡¿default.propertiesÔÚorg.apache.struts2ÏÂ£¬ÆäÖĞÊÇ´æ·ÅÔÚstruts.xmlÖĞµÄ³£Á¿Ä¬ÈÏÖµµÄµØ·½£¬ÔÚstruts.xmlÖĞµÄ³£Á¿Ä¬ÈÏÖµµÄµØ·½£¬ÔÚstruts
-ÖĞÊ¹ÓÃcontent£¬½«»á¸²¸ÇµôÆäÖĞµÄÄ¬ÈÏÖµ¡£
-¡¾11¡¿ÔÚjspÒ³ÃæÖĞËùÊ¹ÓÃµÄ<%@ taglib profix="s" uri="/struts-tags"%>,¸Ã±êÇ©ÊÇÔÚWETA-INFÏÂµÄstruts-tags.tld
-ÖĞ¡£
-¡¾12¡¿ÔÚaction extends ActionSupportµÄÀàÖĞµÄ·½·¨ÖĞ£¬¿ÉÒÔÔö¼Óthis.addFieldError("user", "userName error");
-Ö®ºó£¬¿ÉÒÔÔÚ·µ»ØµÄÊÓÍ¼ÖĞ£¬Í¨¹ı<s:fielderror></s:fielderror>È¡³öÄ¬ÈÏµÄ´íÎó£¬
-<s:property value="errors.user[0]"/>//Í¨¹ıÕâ¸ö±êÇ©£¬
-//È¡³övalue-stackÖĞµÄ£¬keyÎªerrors£¬valueÎªuserµÄ×Ö·û´®Êı×éµÄµÚÒ»¸ö
-<s:debug></s:debug>//¿ÉÒÔÏÔÊ¾³öËùÓĞµÄĞÅÏ¢
-¡¾13¡¿
+ã€10ã€‘default.propertiesåœ¨org.apache.struts2ä¸‹ï¼Œå…¶ä¸­æ˜¯å­˜æ”¾åœ¨struts.xmlä¸­çš„å¸¸é‡é»˜è®¤å€¼çš„åœ°æ–¹ï¼Œåœ¨struts.xmlä¸­çš„å¸¸é‡é»˜è®¤å€¼çš„åœ°æ–¹ï¼Œåœ¨struts
+ä¸­ä½¿ç”¨contentï¼Œå°†ä¼šè¦†ç›–æ‰å…¶ä¸­çš„é»˜è®¤å€¼ã€‚
+ã€11ã€‘åœ¨jspé¡µé¢ä¸­æ‰€ä½¿ç”¨çš„<%@ taglib profix="s" uri="/struts-tags"%>,è¯¥æ ‡ç­¾æ˜¯åœ¨WETA-INFä¸‹çš„struts-tags.tld
+ä¸­ã€‚
+ã€12ã€‘åœ¨action extends ActionSupportçš„ç±»ä¸­çš„æ–¹æ³•ä¸­ï¼Œå¯ä»¥å¢åŠ this.addFieldError("user", "userName error");
+ä¹‹åï¼Œå¯ä»¥åœ¨è¿”å›çš„è§†å›¾ä¸­ï¼Œé€šè¿‡<s:fielderror></s:fielderror>å–å‡ºé»˜è®¤çš„é”™è¯¯ï¼Œ
+<s:property value="errors.user[0]"/>//é€šè¿‡è¿™ä¸ªæ ‡ç­¾ï¼Œ
+//å–å‡ºvalue-stackä¸­çš„ï¼Œkeyä¸ºerrorsï¼Œvalueä¸ºuserçš„å­—ç¬¦ä¸²æ•°ç»„çš„ç¬¬ä¸€ä¸ª
+<s:debug></s:debug>//å¯ä»¥æ˜¾ç¤ºå‡ºæ‰€æœ‰çš„ä¿¡æ¯
+ã€13ã€‘
 <result type="dispatcher/redirect/chain/redirectAction..">
-dispatcher/redirect:·şÎñÆ÷µÄ×ª·¢ºÍÌø×ª£¬Ö»ÊÇÊÓÍ¼jsp»òhtml¡£(dispatcherÎªÄ¬ÈÏtypt)
-chain/redirectAction£ºactionÉÏµÄ×ª·¢ºÍÌø×ª£»
-Ê¹ÓÃactionµÄÌø×ªÔÚ±êÇ©ÄÚ×îÇ°Ãæ²»Òª¼Ó"/":
+dispatcher/redirect:æœåŠ¡å™¨çš„è½¬å‘å’Œè·³è½¬ï¼Œåªæ˜¯è§†å›¾jspæˆ–htmlã€‚(dispatcherä¸ºé»˜è®¤typt)
+chain/redirectActionï¼šactionä¸Šçš„è½¬å‘å’Œè·³è½¬ï¼›
+ä½¿ç”¨actionçš„è·³è½¬åœ¨æ ‡ç­¾å†…æœ€å‰é¢ä¸è¦åŠ "/":
 <result>
-¡¾14¡¿
+ã€14ã€‘
 <result type="chain">
-<param name="actionName">mylogin</param>//´ËÎªÏëÒªÖ´ĞĞµÄactionµÄnameÖµ
-<param name="method">add</param>//´ËÎªÏëÒªÖ´ĞĞµÄactionµÄ·½·¨Öµ
-<param name="namespace">/secure</param>//´ËÎªÏëÒªÖ´ĞĞµÄactionµÄpackageµÄnamespace
+<param name="actionName">mylogin</param>//æ­¤ä¸ºæƒ³è¦æ‰§è¡Œçš„actionçš„nameå€¼
+<param name="method">add</param>//æ­¤ä¸ºæƒ³è¦æ‰§è¡Œçš„actionçš„æ–¹æ³•å€¼
+<param name="namespace">/secure</param>//æ­¤ä¸ºæƒ³è¦æ‰§è¡Œçš„actionçš„packageçš„namespace
 </result>
-¡¾15¡¿
+ã€15ã€‘
 <global-result>
 		<result name="exception">/exception.jsp</result>
 </global-result>
-ÔÚ¸ÃpackageÏÂ£¬ËùÓĞµÄaction¿ÉÒÔ¹«ÓÃglobal-resultÀïÃæµÄresult¡£
-ÈôÒªÔÚÁíÍâÒ»¸öpackageÖĞÒ²Ê¹ÓÃ¸Ãglobal-result£¬¿ÉÒÔÔÚÕâ¸öÁíÒ»¸öpackageÖĞextends="º¬ÓĞglobal-resultµÄpackageµÄname";
-ÕâÑù¾ÍÒ²¿ÉÒÔÊ¹ÓÃÁË¡£
-¡¾16¡¿¶¯Ì¬½á¹û¼¯
-ÔÚUserActionÖĞÓĞÒ»Ë½ÓĞ³ÉÔ±±äÁ¿r£¬½øĞĞgetterºÍsetter¡£
-ÔÚstruts.xmlÖĞ£»¿ÉÒÔÊ¹ÓÃ${r},À´ÔÚÅäÖÃÎÄ¼şÕâÀï£¬»ñÈ¡µ½ÖµÕ»(value-stack)ÖĞµÄÖµ¡£
+åœ¨è¯¥packageä¸‹ï¼Œæ‰€æœ‰çš„actionå¯ä»¥å…¬ç”¨global-resulté‡Œé¢çš„resultã€‚
+è‹¥è¦åœ¨å¦å¤–ä¸€ä¸ªpackageä¸­ä¹Ÿä½¿ç”¨è¯¥global-resultï¼Œå¯ä»¥åœ¨è¿™ä¸ªå¦ä¸€ä¸ªpackageä¸­extends="å«æœ‰global-resultçš„packageçš„name";
+è¿™æ ·å°±ä¹Ÿå¯ä»¥ä½¿ç”¨äº†ã€‚
+ã€16ã€‘åŠ¨æ€ç»“æœé›†
+åœ¨UserActionä¸­æœ‰ä¸€ç§æœ‰æˆå‘˜å˜é‡rï¼Œè¿›è¡Œgetterå’Œsetterã€‚
+åœ¨struts.xmlä¸­ï¼›å¯ä»¥ä½¿ç”¨${r},æ¥åœ¨é…ç½®æ–‡ä»¶è¿™é‡Œï¼Œè·å–åˆ°å€¼æ ˆ(value-stack)ä¸­çš„å€¼ã€‚
 <action name="user" class="com.learning.action.UserAction">
 	<result>${r}</result>
 </action>
-¡¾17¡¿´ø²ÎÊıµÄ½á¹û¼¯;Ïò½á¹û´«²ÎÊı¡£[redirect²ÅĞèÒªÕâÑù´«²ÎÊı]
+ã€17ã€‘å¸¦å‚æ•°çš„ç»“æœé›†;å‘ç»“æœä¼ å‚æ•°ã€‚[redirectæ‰éœ€è¦è¿™æ ·ä¼ å‚æ•°]
 <result type="redirect">
 	/user_success.jsp?t=${type}
 </result>
-¡¾18¡¿Ò»¸örequest¹²ÏíÒ»¸öÖµÕ»(value-stack),ÖØĞÂ´Ó¿Í»§¶Ë·¢ÆğµÄrequestµÃÊ¹ÓÃ¡¾17¡¿ÀïÃæµÄ·½·¨
-²Å¿ÉÒÔ°Ñ²ÎÊı·¢ËÍ¹ıÈ¥£¡
-<s:property value="t" />//ÕâÀïÊÇ´ÓÖµÕ»{valuel-stack}ÖĞÈ¡Öµ£¬ÕâÑùÎŞ·¨»ñÈ¡£¬ÒòÎªtµÄÖµÊÇ²ÎÊı£¬
-²»ÔÚvalue-stackÖĞ´æ×Å¡£
-<s:property value="#parameters.t" />//ÕâÀïÊÇ´ÓactioncontextÖĞÈ¡Öµ£¬tÔÚparametersÖĞ£¬¿ÉÒÔÊ¹ÓÃOGNL
-»ñÈ¡µ½¸Ã²ÎÊıtµÄÖµ¡£
+ã€18ã€‘ä¸€ä¸ªrequestå…±äº«ä¸€ä¸ªå€¼æ ˆ(value-stack),é‡æ–°ä»å®¢æˆ·ç«¯å‘èµ·çš„requestå¾—ä½¿ç”¨ã€17ã€‘é‡Œé¢çš„æ–¹æ³•
+æ‰å¯ä»¥æŠŠå‚æ•°å‘é€è¿‡å»ï¼
+<s:property value="t" />//è¿™é‡Œæ˜¯ä»å€¼æ ˆ{valuel-stack}ä¸­å–å€¼ï¼Œè¿™æ ·æ— æ³•è·å–ï¼Œå› ä¸ºtçš„å€¼æ˜¯å‚æ•°ï¼Œ
+ä¸åœ¨value-stackä¸­å­˜ç€ã€‚
+<s:property value="#parameters.t" />//è¿™é‡Œæ˜¯ä»actioncontextä¸­å–å€¼ï¼Œtåœ¨parametersä¸­ï¼Œå¯ä»¥ä½¿ç”¨OGNL
+è·å–åˆ°è¯¥å‚æ•°tçš„å€¼ã€‚
 
-¡¾19¡¿OGNL
-1,Ö±½Ó·ÃÎÊÖµÕ»ÖĞµÄPropertyValue£»
-Ê¹ÓÃ<s:property value="userName">
-2,Ê¹ÓÃUserDTOË½ÓĞ±äÁ¿getterºÍsetterÀ´½ÓÊÕÇ°Ì¨²ÎÊıÊ±(×Ô¼ºÎ´new£¬½»ÓÉstrutsÀ´new)£¬
-±ØĞëÊ¹ÓÃuser.userName×÷ÎªÇ°Ì¨µÄinputµÄname,ÒÔ¼°jspÏÔÊ¾Ê±£¬
-Ê¹ÓÃ<s:property value="user.userName">À´ÏÔÊ¾ÆäÖµ¡£
-3,Ê¹ÓÃUserDTO£¬¿ÉÒÔ×Ô¼ºnew£¬Ò²¿ÉÒÔÈÃstrutsÀ´°ïÎÒnew,µ±ÓÉstrutsÀ´newÊ±£¬ÔÚÉÏÃæ2µÄÌõ¼ş»ù´¡ÉÏ£¬
-DomainModel±ØĞëÌá¹©Ò»¸ö²ÎÊıÎª¿ÕµÄ¹¹Ôì·½·¨£¬ÓÃÒÔstrutsÀ´ÊµÀı»¯Ò»¸öDomainModel¶ÔÏó¡£·ñÔò»á±¨´í£¬
-strutsÎŞ·¨È·¶¨¸ÃnewÄÄ¸ö¹¹Ôì·½·¨¡£
+ã€19ã€‘OGNL
+1,ç›´æ¥è®¿é—®å€¼æ ˆä¸­çš„PropertyValueï¼›
+ä½¿ç”¨<s:property value="userName">
+2,ä½¿ç”¨UserDTOç§æœ‰å˜é‡getterå’Œsetteræ¥æ¥æ”¶å‰å°å‚æ•°æ—¶(è‡ªå·±æœªnewï¼Œäº¤ç”±strutsæ¥new)ï¼Œ
+å¿…é¡»ä½¿ç”¨user.userNameä½œä¸ºå‰å°çš„inputçš„name,ä»¥åŠjspæ˜¾ç¤ºæ—¶ï¼Œ
+ä½¿ç”¨<s:property value="user.userName">æ¥æ˜¾ç¤ºå…¶å€¼ã€‚
+3,ä½¿ç”¨UserDTOï¼Œå¯ä»¥è‡ªå·±newï¼Œä¹Ÿå¯ä»¥è®©strutsæ¥å¸®æˆ‘new,å½“ç”±strutsæ¥newæ—¶ï¼Œåœ¨ä¸Šé¢2çš„æ¡ä»¶åŸºç¡€ä¸Šï¼Œ
+DomainModelå¿…é¡»æä¾›ä¸€ä¸ªå‚æ•°ä¸ºç©ºçš„æ„é€ æ–¹æ³•ï¼Œç”¨ä»¥strutsæ¥å®ä¾‹åŒ–ä¸€ä¸ªDomainModelå¯¹è±¡ã€‚å¦åˆ™ä¼šæŠ¥é”™ï¼Œ
+strutsæ— æ³•ç¡®å®šè¯¥newå“ªä¸ªæ„é€ æ–¹æ³•ã€‚
 
-¡¾20¡¿
-Ê¹ÓÃOGNL·ÃÎÊactionÖĞµÄÒ»°ã·½·¨£¬Ö±½ÓÔÚ<s:property value="m()">//ÕâÑù¿ÉÒÔ·ÃÎÊactionÖĞµÄÒ»°ã·½·¨¡£
-Ê¹ÓÃOGNL·ÃÎÊactionÖĞDomainModel³ÉÔ±±äÁ¿ÖĞµÄ·½·¨£¬<s:property value="user.add()">//Ê¹ÓÃ³ÉÔ±±äÁ¿¼Ó.À´·ÃÎÊ¡£
-Ê¹ÓÃOGNL·ÃÎÊÀàÖĞµÄ¾²Ì¬·½·¨ÒÔ¼°¾²Ì¬ÊôĞÔÀı×Ó£º<s:property value="@ÀàÃû´ø°üÃû@·½·¨Ãû»òÊôĞÔÃû" />¡£
-×¢Òâ£º·ÃÎÊÀàÖĞµÄ¾²Ì¬·½·¨Ê±£¬<constant name="struts.ognl.allowStaticMethodAccess" value="true" />
-±ØĞë½«¸ÃÏîÄ¿¼ÓÉÏ£¬ÇÒÉèÖÃÎªtrue¡£
-Ê¹ÓÃOGNL·ÃÎÊÆÕÍ¨ÀàµÄ¹¹Ôì·½·¨£º<s:property value="new com.learning.bean.User(8)" />//´òÓ¡³öÀ´µÄÊÇUserµÄtoString()·½·¨
-¡¾21¡¿Ê¹ÓÃOGNL·ÃÎÊList£¬Set£¬Map£º
-ÔÚactionÖĞ£º
+ã€20ã€‘
+ä½¿ç”¨OGNLè®¿é—®actionä¸­çš„ä¸€èˆ¬æ–¹æ³•ï¼Œç›´æ¥åœ¨<s:property value="m()">//è¿™æ ·å¯ä»¥è®¿é—®actionä¸­çš„ä¸€èˆ¬æ–¹æ³•ã€‚
+ä½¿ç”¨OGNLè®¿é—®actionä¸­DomainModelæˆå‘˜å˜é‡ä¸­çš„æ–¹æ³•ï¼Œ<s:property value="user.add()">//ä½¿ç”¨æˆå‘˜å˜é‡åŠ .æ¥è®¿é—®ã€‚
+ä½¿ç”¨OGNLè®¿é—®ç±»ä¸­çš„é™æ€æ–¹æ³•ä»¥åŠé™æ€å±æ€§ä¾‹å­ï¼š<s:property value="@ç±»åå¸¦åŒ…å@æ–¹æ³•åæˆ–å±æ€§å" />ã€‚
+æ³¨æ„ï¼šè®¿é—®ç±»ä¸­çš„é™æ€æ–¹æ³•æ—¶ï¼Œ<constant name="struts.ognl.allowStaticMethodAccess" value="true" />
+å¿…é¡»å°†è¯¥é¡¹ç›®åŠ ä¸Šï¼Œä¸”è®¾ç½®ä¸ºtrueã€‚
+ä½¿ç”¨OGNLè®¿é—®æ™®é€šç±»çš„æ„é€ æ–¹æ³•ï¼š<s:property value="new com.learning.bean.User(8)" />//æ‰“å°å‡ºæ¥çš„æ˜¯Userçš„toString()æ–¹æ³•
+ã€21ã€‘ä½¿ç”¨OGNLè®¿é—®Listï¼ŒSetï¼ŒMapï¼š
+åœ¨actionä¸­ï¼š
 	List<Cattle> cattles = new ArrayList<Cattle>();
 	Set<Cat> cats = new HashSet<Cat>();
 	Map<String, Dog> dogs = new HashMap<String, Dog>();
@@ -147,19 +147,34 @@ strutsÎŞ·¨È·¶¨¸ÃnewÄÄ¸ö¹¹Ôì·½·¨¡£
 		dogs.put("dog2", new Dog("dog2", 2));
 		dogs.put("dog3", new Dog("dog3", 3));
 	}
-·ÃÎÊList£º<s:property value="users" />//½«¸ÃUserµÄListÈ«²¿´òÓ¡³öÀ´¡£
-·ÃÎÊListÖĞÄ³¸öÔªËØ£º<s:property value="users[1]">//users.get(0)
-·ÃÎÊListÖĞÔªËØÄ³¸öÊôĞÔµÄ¼¯ºÏ£º<s:property value="users.{age}" />
-·ÃÎÊListÖĞÔªËØÄ³¸öÊôĞÔµÄ¼¯ºÏÖĞµÄÌØ¶¨Öµ£º
-<s:property value="users.{age}[0]" />»òÕß<s:property value="users[0].age" />//ÍÆ¼öÊ¹ÓÃºóÕß
+è®¿é—®Listï¼š<s:property value="users" />//å°†è¯¥Userçš„Listå…¨éƒ¨æ‰“å°å‡ºæ¥ã€‚
+è®¿é—®Listä¸­æŸä¸ªå…ƒç´ ï¼š<s:property value="users[1]">//users.get(0)
+è®¿é—®Listä¸­å…ƒç´ æŸä¸ªå±æ€§çš„é›†åˆï¼š<s:property value="users.{age}" />
+è®¿é—®Listä¸­å…ƒç´ æŸä¸ªå±æ€§çš„é›†åˆä¸­çš„ç‰¹å®šå€¼ï¼š
+<s:property value="users.{age}[0]" />æˆ–è€…<s:property value="users[0].age" />//æ¨èä½¿ç”¨åè€…
 
-·ÃÎÊSet£º<s:property value="dogs" />
-·ÃÎÊSetÖĞÄ³¸öÔªËØ£º<s:property value="dogs[1]" />
-·ÃÎÊMap£º<s:property value="dogMap" />
-·ÃÎÊMapÖĞÄ³¸öÔªËØ£º<s:property value="dogMap.dog101" />//·ÃÎÊMapÖĞkeyÎªdog101µÄvalue
-·ÃÎÊMapÖĞËùÓĞµÄkey£º<s:property value="dogMap.keys" />
-·ÃÎÊMapÖĞËùÓĞµÄvalue£º<s:property value="dogMap.values" />
-·ÃÎÊÈİÆ÷µÄ´óĞ¡£º<s:property value="dobMap.size()" />
-¡¾×÷Òµ¡¿
-1,¶ÁdocÎÄµµ:struts-tags;
-2,Éè¼ÆÔ¼¶¨(±àÂë¹æ¶¨)
+è®¿é—®Setï¼š<s:property value="dogs" />
+è®¿é—®Setä¸­æŸä¸ªå…ƒç´ ï¼š<s:property value="dogs[1]" />
+è®¿é—®Mapï¼š<s:property value="dogMap" />
+è®¿é—®Mapä¸­æŸä¸ªå…ƒç´ ï¼š<s:property value="dogMap.dog101" />//è®¿é—®Mapä¸­keyä¸ºdog101çš„value
+è®¿é—®Mapä¸­æ‰€æœ‰çš„keyï¼š<s:property value="dogMap.keys" />
+è®¿é—®Mapä¸­æ‰€æœ‰çš„valueï¼š<s:property value="dogMap.values" />
+è®¿é—®å®¹å™¨çš„å¤§å°ï¼š<s:property value="dobMap.size()" />
+ã€22ã€‘è¿‡æ»¤
+//thisæ˜¯æŒ‡éå†å¾ªç¯usersè¿‡ç¨‹ä¸­çš„æ¯ä¸ªuserå½“å‰å¯¹è±¡
+<s:property value="users.{?#this.age==1}" />
+//æ‹¿åˆ°çš„æ˜¯age==1çš„å¯¹è±¡ç»„æˆçš„æ•°ç»„
+<s:property value="users.{?#this.age==1}[0]" />
+//æ‹¿åˆ°çš„æ˜¯age==1çš„å¯¹è±¡ç»„æˆçš„æ•°ç»„çš„ç¬¬ä¸€ä¸ªå¯¹è±¡
+<s:property value="users.{^#this.age>1}.{age}" />
+//^#å€¼çš„æ˜¯æ‹¿åˆ°äº†å¯¹è±¡çš„å±æ€§age>1çš„é›†åˆé›†çš„ç¬¬ä¸€ä¸ª
+<s:property value="users.{$#this.age>1}.{age}" />
+//$#å€¼çš„æ˜¯æ‹¿åˆ°äº†å¯¹è±¡çš„å±æ€§ageã€‹1é›†åˆé›†çš„æœ€åä¸€ä¸ª
+<s:property value="users.{$#this.age>1}.{age}==null" />
+//æ˜¯å¦ä¸ºç©ºï¼Œè¿”å›ä¸ºtrue/false
+ã€23ã€‘OGNLè¡¨è¾¾å¼ä¸­æ‹¬å·[n]ï¼š
+<s:property value="[0]" />//åœ¨å€¼æ ˆä¸­ç¬¬nä¸ªä½ç½®å¼€å§‹ä»ä¸Šå¾€ä¸‹ä¾æ¬¡å¾€å‡ºæ‹¿ã€‚
+
+ã€ä½œä¸šã€‘
+1,è¯»docæ–‡æ¡£:struts-tags;
+2,è®¾è®¡çº¦å®š(ç¼–ç è§„å®š)
