@@ -181,12 +181,20 @@ struts无法确定该new哪个构造方法。
 <s:property value="'<hr />'" excape="true"/>、
 //escape默认为true，指的是将value中的html标签不要解析，直接显示字符串。反之为解析为html内容。
 【25】s:set标签；
-<s:set var="adminName" value="username" scope=""/>//这里的username是ognl的值
+<s:set var="adminName" value="username"/>//这里的username是ognl的值(Object类型)
 set为设定adminName的值(范围scope默认为：request和ActionContext中)
 使用以下获取：
 从request中取值：<s:property value="#request.adminName" />
 从ActionContext中取值：<s:property value="#adminName" />
 
+【26】s:bean标签
+<s:bean var="myuser" name="这里填写的是类名包括包名">//这里相当于是新建了一个类
+注意这里的var相当于new出来的对象的名。
+<s:param name="name" value="'value'"></s:param>
+//这里的name于bean对象的setter方法对应，value中填写的是String值，而非ognl，注意加单引号区分
+</s:bean>
+取值：<s:property value="#myuser" />//这样就能获得整个类
+特别注意：在让struts帮我们new对象时，该对象必须存在一个空的构造方法，否则就无法创建对象。
 
 【作业】
 1,读doc文档:struts-tags;
