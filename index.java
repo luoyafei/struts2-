@@ -175,6 +175,19 @@ struts无法确定该new哪个构造方法。
 【23】OGNL表达式中括号[n]：
 <s:property value="[0]" />//在值栈中第n个位置开始从上往下依次往出拿。
 
+【24】struts标签：
+<s:property value="'username'">//加单引号，使用的字符串而非OGNL表达式。
+<s:property value="admin" default="管理员" />//如何没有admin变量，使用默认值。
+<s:property value="'<hr />'" excape="true"/>、
+//escape默认为true，指的是将value中的html标签不要解析，直接显示字符串。反之为解析为html内容。
+【25】s:set标签；
+<s:set var="adminName" value="username" scope=""/>//这里的username是ognl的值
+set为设定adminName的值(范围scope默认为：request和ActionContext中)
+使用以下获取：
+从request中取值：<s:property value="#request.adminName" />
+从ActionContext中取值：<s:property value="#adminName" />
+
+
 【作业】
 1,读doc文档:struts-tags;
 2,设计约定(编码规定)
